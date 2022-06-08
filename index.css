@@ -1,0 +1,149 @@
+body{
+    background-color: blanchedalmond;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+  }
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .navBar li a {
+    display:flex;
+    color: darkgrey;
+    text-align:right;
+    text-decoration: none;
+  }
+  .navBar li{
+      justify-content: space-around;
+  }
+
+  h1{
+      text-align: center;
+      color: grey;
+  }
+
+  h3{
+      color: rgb(169, 166, 166);
+      text-align: center;
+  }
+
+  p{
+      color: rgb(169, 166, 166);
+  }
+
+  img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0em 1em; 
+  }
+
+  .hireme{
+        width: 6em;
+        height: 2rem;
+        background: wheat;
+        color: darkgrey;
+        border-radius: 3rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+  .container1{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0em 0em; 
+  }
+
+  .container2{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 1em 1em; 
+  }
+
+  .service1{
+      border: solid 1px grey;
+  }
+
+  .service2{
+    border: solid 1px grey;
+}
+
+.service3{
+    border: solid 1px grey;
+}
+
+.container3{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 1em 1em; 
+}
+
+.contact{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 1em 5em; 
+}
+
+.contactRight{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0fr 0fr 0fr 1fr 0fr; 
+    gap: 1em 1em; 
+}
+
+.cL1{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 1em 1em; 
+}
+
+.cL2{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 1em 1em; 
+}
+    
+.cL3{
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 1em 1em; 
+    }
+
+.intro p{
+        text-align: center;
+     }
+
+.footer p{
+    text-align: center;
+}
