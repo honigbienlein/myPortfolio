@@ -1,33 +1,44 @@
 body{
-    background-color: blanchedalmond;
+    background-color: black;
 }
-.navBar{
-    display: flex;
-    justify-content: center;
-  }
 
-.navBar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    overflow: hidden;
-  }
-
-  .navBar li a {
-    display:flex;
+/* navbar */
+.nav a{
+    color: white;
+}
+.nav a:hover{
     color: darkgrey;
-    text-align:right;
-    text-decoration: none;
-  }
-  .navBar li{
-      justify-content: space-around;
+}
+
+/* home */
+.homeContainer{
+    color: white;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 2em; 
+    text-align: center;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.buttonHireMe{
+    width: 6em;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    border-color: darkgrey;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  h1{
-      text-align: center;
-      color: grey;
-  }
+/*   
 
   h3{
       color: rgb(169, 166, 166);
@@ -38,13 +49,6 @@ body{
       color: rgb(169, 166, 166);
   }
 
-  img {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .container{
     display: grid; 
     grid-auto-columns: 1fr; 
@@ -53,17 +57,7 @@ body{
     gap: 0em 1em; 
   }
 
-  .hireme{
-        width: 6em;
-        height: 2rem;
-        background: wheat;
-        color: darkgrey;
-        border-radius: 3rem;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-  }
+
 
   .container1{
     display: grid; 
@@ -146,4 +140,4 @@ body{
 
 .footer p{
     text-align: center;
-}
+} */
